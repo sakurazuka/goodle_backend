@@ -1,0 +1,26 @@
+{
+  "name": "goodle_backend",
+  "version": "1.0.0",
+  "description": "goodle(仮) 1. スマートコントラクト(Ethereum Dapps) \t- ユーザがページを評価したらそれに応じてコインを配布する \t- ERC20対応Ethereumトークン \t- ページ情報をブロックチェーンに格納し、報酬を配布する \t1. 言語 \t\t- Solidity \t2. フレームワーク \t\t- Truffle \t\t- OpenZeppelin \t3. ローカル開発環境 \t\t- Ganache 2. 検索サイト(Ethereum Dappsフロントエンド) \t- 検索サイトを作成する \t- ブロックチェーンに保存したサイトのデータから検索 \t- ユーザの評価を元に評価の高いものから優先で表示する \t1. 言語 \t\t- Javascript \t2. フレームワーク \t\t- Truffle(フロントも作れる) \t3. コントラクトアクセス用ライブラリ \t\t- web3.js",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakurazuka/goodle_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakurazuka/goodle_backend/issues"
+  },
+  "homepage": "https://github.com/sakurazuka/goodle_backend#readme",
+  "dependencies": {
+    "zeppelin-solidity": "^1.12.0"
+  }
+}
