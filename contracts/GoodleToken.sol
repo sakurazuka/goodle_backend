@@ -5,9 +5,10 @@ contract GoodleToken is StandardToken {
   string public name = "GoodleToken";
   string public symbol = "GDL";
   uint public decimals = 18;
+  uint public InitialSupply = 10000 * (10 ** decimals);
 
-  constructor(uint initialSupply) public {
-    totalSupply_ = initialSupply;
-    balances[msg.sender] = initialSupply;
+  constructor() public {
+    totalSupply_ = InitialSupply;
+    balances[msg.sender] = InitialSupply;
   }
 }
